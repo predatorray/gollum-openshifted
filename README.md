@@ -4,7 +4,7 @@ This project is all about getting your own [gollum](https://github.com/github/go
 Red Hat's [Openshift](https://openshift.redhat.com/app/). It's quite straight forward. Just sign up
 for an OpenShift account and follow these instructions:
 
-    $ git clone git@github.com:hferentschik/gollum-openshifted.git
+    $ git clone git://github.com/openshift/gollum-openshifted.git
     $ git remote rm origin
     $ rhc-create-domain -n <your-domain> -l <email> -p <password>
     $ rhc-create-app -a <app> -t rack-1.1 -l <email> -p <password> --nogit
