@@ -7,7 +7,7 @@ for an OpenShift account and follow these instructions:
     $ git clone git://github.com/openshift/gollum-openshifted.git
     $ git remote rm origin
     $ rhc-create-domain -n <your-domain> -l <email> -p <password>
-    $ rhc-create-app -a <app> -t rack-1.1 -l <email> -p <password> --nogit
+    $ rhc-create-app -a <app> -t ruby-1.8 -l <email> -p <password> --nogit
       <git-url>
     $ git remote add openshift <git-url>  
     $ git push -f openshift master
