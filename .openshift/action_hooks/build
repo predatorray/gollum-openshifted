@@ -5,5 +5,5 @@
 # could be python, php, ruby, etc.
 
 export
-perl -pi -0777 -e "s/<user>/$OPENSHIFT_APP_UUID/g" $OPENSHIFT_REPO_DIR/config.ru
+perl -pi -0777 -e "s/<user>/$OPENSHIFT_GEAR_UUID/g" $OPENSHIFT_REPO_DIR/config.ru
 perl -pi -0777 -e "s/<app>/$OPENSHIFT_APP_NAME/g" $OPENSHIFT_REPO_DIR/config.ru
