@@ -4,7 +4,7 @@ This project is all about getting your own [gollum](https://github.com/github/go
 Red Hat's [Openshift](https://openshift.redhat.com/app/). It's quite straight forward. Just sign up
 for an OpenShift account and follow these instructions:
 
-    $ rhc app create -a gollum -t ruby-1.8 
+    $ rhc app create gollum ruby-1.8 
     $ cd gollum
     $ git remote add upstream -m master git@github.com:openshift/gollum-openshifted.git
     $ git pull -s recursive -X theirs upstream master
